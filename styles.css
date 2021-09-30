@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #7d7878;
+}
+
+#container {
+  border-radius: 50px;
+  box-shadow: -16px -16px 32px #4f4c4c, 16px 16px 32px #aba4a4;
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+p {
+  font-weight: 400;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+input {
+  width: 70%;
+  margin: auto;
+  padding: 0.7rem;
+  display: block;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  display: block;
+  font-size: 1rem;
+  margin: 1rem auto 0;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 0.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#checkContainer {
+  display: none;
+  padding: 1.3rem;
+}
+
+#errorMsg {
+  padding-top: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+#outputContainer {
+  display: none;
+}
+
+#output {
+  margin: 1rem 0;
+}
+
+#output table,
+th,
+td {
+  padding: 0.2rem;
+  background-color: transparent;
+  border: 2px solid rgb(95, 96, 99);
+  border-collapse: collapse;
+}
+.noOfNotes {
+  background-color: white;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+th,
+td {
+  word-wrap: break-word;
+}
